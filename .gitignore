@@ -7,3 +7,6 @@ node_modules/
 # Ignore secret and important files
 /.env
 /settings.json
+
+# Ignore yarn files
+/.yarn-error.log
