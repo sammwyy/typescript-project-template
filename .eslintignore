@@ -1,0 +1,11 @@
+# Ignore compilation output directory
+build/
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore deployment directory
+deployment/
+
+# Ignore unit test direwctory
+tests/

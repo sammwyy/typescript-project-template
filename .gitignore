@@ -1,0 +1,9 @@
+# Ignore compilation output directory
+build/
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore secret and important files
+/.env
+/settings.json

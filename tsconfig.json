@@ -1,0 +1,19 @@
+{
+  "exclude": [
+      "node_modules/",
+      "build/*.*",
+      "deployment/*.*",
+      "*.*"
+  ],
+
+  "compilerOptions": {
+      "target": "es3",
+      "module": "commonjs",
+      "rootDir": "./src",
+      "outDir": "./build",
+      "esModuleInterop": true,
+      "strict": false,
+      "resolveJsonModule": true,
+      "removeComments": true
+  }
+}

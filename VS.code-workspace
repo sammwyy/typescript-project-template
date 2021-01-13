@@ -1,0 +1,56 @@
+{
+  "folders": [
+    {
+      // Application Source Code
+      "name": "MyApplication",
+      "path": "./src"
+    },
+
+  ],
+  "settings": {
+    "editor.tabSize": 2,
+    "editor.rulers": [
+      120
+    ],
+    "npm.packageManager": "yarn",
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "files.watcherExclude": {
+      "**/.history/**": true,
+      "**/.git/**": true,
+      "**/node_modules/**": true,
+      "**/dist/**": true,
+      "**/deployment/**": true
+    },
+    "search.exclude": {
+      "**/.history/**": true,
+      "**/.git/**": true,
+      "**/node_modules/**": true,
+      "**/dist/**": true,
+      "**/deployment/**": true
+    },
+    "files.exclude": {
+      "**/.history/**": true,
+      "**/.git": true,
+      "**/.vscode": true,
+      "**/.history": true,
+      "**/dist/**": true,
+      "**/deployment/**": true
+    },
+    "eslint.workingDirectories": [
+      "./"
+    ],
+    "eslint.nodePath": "node_modules",
+    "eslint.packageManager": "yarn",
+    "local-history.exclude": [
+      "**/.history/**",
+      "**/.vscode/**",
+      "**/node_modules/**",
+      "**/typings/**",
+      "**/.tmp/**",
+      "**/deployment/**"
+    ],
+    "local-history.daysLimit": 30
+  }
+}

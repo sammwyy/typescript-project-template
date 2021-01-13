@@ -1,0 +1,16 @@
+// This is an example settings.json file.
+// Move this to root directory
+
+{
+  // Settings to be used under development environment
+  "development": {
+      "host": "127.0.0.1",    // hostname
+      "port": 6501            // port
+  },
+
+  // Settings to be used under production environment
+  "production": {
+      "host": "127.0.0.1",    // hostname
+      "port": 6601            // port
+  }
+}
